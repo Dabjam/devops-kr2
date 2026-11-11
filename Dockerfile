@@ -14,4 +14,4 @@ USER appuser
 
 EXPOSE 8003
 
-CMD ["python", "app.py"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8003", "app:app"]
