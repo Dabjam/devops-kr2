@@ -1,3 +1,4 @@
+# KR2: Pozdyshev
 import os
 import socket
 
